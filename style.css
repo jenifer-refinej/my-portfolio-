@@ -56,7 +56,7 @@
 }
 
 .github {
-    justify-content:space-between ;
+    gap: 10px;
 }
 
 /* landing page styles */
@@ -461,7 +461,7 @@ font-weight: bold;
 }
 @media (min-width:375px) and (max-width:552px) {
     .large-text{
-        font-size: 55px;
+        font-size: 35px;
     }
 }
 @media (min-width:650px) {
