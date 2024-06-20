@@ -463,6 +463,15 @@ font-weight: bold;
     .large-text{
         font-size: 35px;
     }
+    .animationtext{
+        animation:largetext 3s ease
+    }
+    @keyframes largetext {
+        0%{
+            transform: scale(.1);
+        }
+        
+    }
 }
 @media (min-width:650px) {
     .skill-container .col{
