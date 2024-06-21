@@ -370,7 +370,7 @@ font-weight: bold;
 }
 .contact-detail-li{
     display: flex;
-    justify-content: space-evenly;
+    
     flex-direction: column;
     gap: 20px;
 }
@@ -441,15 +441,15 @@ font-weight: bold;
 
 }
 
-@media (min-width:375px) and (max-width:760px) {
+@media (min-width:325px) and (max-width:760px) {
     .github {
         justify-content: start;
     }
 
 }
-@media (min-width:375px) and (max-width:500px) {
+@media (min-width:325px) and (max-width:500px) {
     .skill-container .container{
-        margin: 0 15px !important;
+        margin: 0 10px !important;
         width: 100%;
     }
 }
@@ -459,7 +459,7 @@ font-weight: bold;
         width: 60%;
     }
 }
-@media (min-width:375px) and (max-width:552px) {
+@media (min-width:325px) and (max-width:552px) {
     .large-text{
         font-size: 35px;
     }
