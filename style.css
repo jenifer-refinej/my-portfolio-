@@ -43,7 +43,10 @@
 .nav-link:hover {
     color: rgba(8, 173, 173, 0.799)
 }
-
+.navbar-toggler-icon {
+  
+    background-image: url(https://www.svgrepo.com/show/315607/menu-right.svg);
+}
 .nav-container {
     padding: 0 5%;
 }
