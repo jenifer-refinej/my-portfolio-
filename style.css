@@ -302,6 +302,7 @@
 }
 .badge-container{
    gap: 10px;
+   flex-wrap: wrap;
 }
 .badge{
     color: #ffffff;
