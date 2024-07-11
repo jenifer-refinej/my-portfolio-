@@ -15,7 +15,23 @@
 
 <body>
     <div class="whole-container">
-        <header class="px-5 py-2  ">
+          
+
+<div class="area" >
+    <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+</div >
+        <header class="">
             <nav class="navbar navbar-expand-md pt-3">
                 <div class="container-fluid nav-container">
                     <a class="navbar-brand ps-5 fw-bold text-white" href="#">
@@ -57,22 +73,13 @@
 
         </header>
         <!-- landing page starts -->
-        <div class="landingpage m-5 text-white  mt-5 nav-container d-flex">
-            <div class="row mt-4">
-                <div class="col-lg-6 col-sm-12">
-                    <h1 class="fw-bold">Hi,I am <br>Jenifer R</h1>
-                    <h4>I am a <span id="typing-text" class="violet-text fw-bold auto-type"> </span>
+        <div class="landingpage text-white  nav-container d-flex">
+                    <h1 class="fw-bold mt-5 ">Hi,I am Jenifer R</h1>
+                    <h4 class="ms-4"><span id="typing-text" class="violet-text fw-bold auto-type"> </span>
                     </h4>
-                    <!-- <p class="grey-text  ">
-                        Skilled Frontend Developer with a strong portfolio. Specializing in crafting visually appealing,
-                        user-friendly websites. Blend of creativity, technical expertise, and commitment to continuous
-                        learning. Eager to contribute to innovative projects, grow professionally.</p> -->
-                    <!-- add resume link here important -->
-                   <a href="https://jenifer-resume.tiiny.site" target="_blank"><button class="resume-btn mt-4">Check Resume</button></a>
-                </div>
-                <div class="col-lg-6 col-sm-12">
-                    <img src="" alt="">
-                </div>
+                    <button class="resume-btn ">  <a href="https://jenifer-resume.tiiny.site" target="_blank">Check Resume</button></a>
+              
+             
             </div>
         </div>
     </div>
@@ -230,7 +237,7 @@
                     <div class="d-flex code-link-btn">
                         <a href="https://github.com/jenifer-refinej/plant-E-commerce-Website" target="_blank" class="
                          code-btn">View Code</a>
-                        <a href="https://plante-commercewebsite.netlify.app/" target="_blank" class=" active-btn">Live
+                        <a href="https://plantooe-commerce.netlify.app/" target="_blank" class=" active-btn">Live
                             Website</a>
                     </div>
 
@@ -411,7 +418,7 @@
         </div>
         <div class="container m-3 card-container">
             <!-- Todo-list -->
-            <div class="card" style="width: 22rem; height:70vh;">
+            <div class="card" style="width: 22rem; height:auto;">
                 <img src="images/screenshot img/todolist.png" class="card-img-top" alt="photoshootevent website">
                 <div class="d-flex badge-container">
                     <span class="badge">HTML</span>
@@ -453,7 +460,7 @@
                 </div>
             </div>
             <!--card servicewebsite-->
-            <div class="card" style="width: 22rem;height:70vh;">
+            <div class="card " style="width: 22rem;height:auto;">
                 <img src="images/screenshot img/carservice landingpage.png" class="card-img-top"
                     alt="photoshootevent website">
                 <div class="d-flex badge-container">
@@ -462,10 +469,9 @@
 
                 </div>
 
-                <div class="card-body">
+                <div class="card-body pb-5">
                     <h5 class="card-title fw-bold">Car Service website</h5>
-                    <p class="card-text">This is a car service website I'm currently working on. After finishing it, I
-                        will deploy </p>
+                    <p class="card-text">This is a car service website I'm currently working on. It is a platform where we can see various services,plans that offer by our website.</p>
 
                 </div>
             </div>
@@ -481,14 +487,14 @@
         <div class="container row my-5">
             <div class="col-lg-7 col-md-12 col-12">
                 <h3>Send Us a Note</h3>
-                <form action="malito:jeniferr2109@gmail.com" class="form-container my-4">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Your Email">
-                    <input type="number" placeholder="Phone No">
-                    <textarea name="subject" id="subject" cols="20" rows="5" placeholder=" Message Here!...">
+                <form action="https://formsubmit.co/7684ca1ed33b12281aabd3a6c1953f16" method="POST"  class="form-container my-4">
+                    <input type="text" placeholder="Name" name="Name">
+                    <input type="email" placeholder="Your Email" name="Email">
+                    <input type="number" placeholder="Phone No" name="Phone Number">
+                    <textarea name="Subject" id="subject" cols="20" rows="5" placeholder=" Message Here!...">
 
         </textarea>
-                    <button class="send-contact" type="submit"> <a href="mailto:jeniferr2109@gmail.com">Send</a></button>
+                    <button class="send-contact" type="submit">Send</button>
                 </form>
             </div>
             <div class="col col-lg-4 col-md-12 col-12  my-5 contact-detail-holder">
@@ -568,7 +574,7 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed(".auto-type", {
-            strings: ["Web Designer", "Frontend Developer", "Web developer"],
+            strings: ["Frontend Developer", "UI Developer", "Web Developer"],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true
