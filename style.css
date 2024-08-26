@@ -637,7 +637,17 @@ textarea {
     align-items: center;
     justify-content: center;
 }
-
+.view-more-btn{
+    background-color: #212529;
+    color: #fff;
+    padding: 10px 20px;
+    border-color:transparent;
+    box-shadow: 0 0 4px 4px #068a8a;
+    outline: none;
+}
+.second-half-project{
+    display: none;
+}
 
 
 

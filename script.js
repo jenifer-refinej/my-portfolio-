@@ -52,4 +52,12 @@ applyAnimationOnVisible(".contact-container .large-text", "animationtext");
 
 applyAnimationOnVisible(".contact-container .large-text","animationtext")
 
-
+// view more btn
+const viewMore = document.querySelector(".view-more-btn")
+const displayBlockProject = document.querySelectorAll(".second-half-project")
+viewMore.addEventListener("click",function(){
+    displayBlockProject.forEach((project)=>{
+        project.classList.remove("second-half-project")
+    })
+    viewMore.style.display = "none"
+})
