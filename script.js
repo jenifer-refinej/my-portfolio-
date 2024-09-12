@@ -1,7 +1,7 @@
 let navbarscrolling =  document.querySelector(".navbar")
 window.addEventListener("scroll",()=>{
     if(window.scrollY >= 0){
-        navbarscrolling.style.backgroundColor= "black"
+        navbarscrolling.style.backgroundColor= "rgba(21, 21, 21, 0.746)"
 
     }
     else{
@@ -58,6 +58,6 @@ const displayBlockProject = document.querySelectorAll(".second-half-project")
 viewMore.addEventListener("click",function(){
     displayBlockProject.forEach((project)=>{
         project.classList.remove("second-half-project")
-    })
+    }) 
     viewMore.style.display = "none"
 })
